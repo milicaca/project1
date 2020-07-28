@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.header{
+
+    margin-left: 70px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+h5{
+
+    text-align: center;
+    padding: 20px;
+    line-height: 25px !important;
+     
+}
+
+
+
+  .flex-container {
+
+    display: flex;
+    flex-flow: row wrap;
+    height: 430px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+
+
+  }
+.footer{
+    
+    padding-top: 100px;
+}
+
+img {
+    width: 20%;
+    margin-left: 200px;
+  }
+
+  .small-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-item {
+    height: 200px;
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border: none;
+    border-top: solid;
+    border-top-width: 8px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px #e4e3e3;
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+  }
+  #one{
+      align-self: center;
+      border-top-color: hsl(180, 62%, 55%);
+  }
+  #two{
+
+    align-self: flex-start;
+    border-top-color: hsl(0, 78%, 62%);
+  }
+  #three {
+    align-self: flex-end;
+    border-top-color: hsl(34, 97%, 64%);
+  }
+  #four {
+    align-self: center;
+    border-top-color: hsl(212, 86%, 64%);
+  }
